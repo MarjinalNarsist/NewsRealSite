@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     auth: {
-        user: "mnpythondummy@gmail.coma",
+        user: "mnpythondummy@gmail.com",
         pass: "sijaunlwkryfmutz"
     }
 })
